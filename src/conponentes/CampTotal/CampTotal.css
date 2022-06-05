@@ -1,0 +1,28 @@
+.CampTotal {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  border-top: #e0e0e0 2px solid;
+}
+.CampPrice {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.CampTotal > button {
+  width: 100%;
+  height: 70px;
+
+  border: none;
+  border-radius: 8px;
+}
+.btnRemove:hover {
+  background-color:#27AE60 ;
+  color: white;
+  transition: 1s;
+
+}

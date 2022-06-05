@@ -1,0 +1,40 @@
+.containerList {
+  height: 100%;
+  display: flex;
+  padding-left: 16px;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  overflow-x: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (min-width: 700px) {
+  .containerList {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    gap: 40px;
+    overflow-x: none;
+    margin-top: 5px;
+
+  }
+  main{
+      max-width: 1600px;
+      display: flex;
+      justify-content:space-between;
+      align-items: flex-start;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+    }
+  
+}

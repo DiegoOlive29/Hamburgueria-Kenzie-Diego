@@ -1,0 +1,31 @@
+.CardItem {
+  width: 90%;
+  height: 70px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.CardItem > img {
+  width: 70px;
+  height: 70px;
+  background-color: #E0E0E0;
+  border-radius: 5px;
+}
+.buttonRemove{
+  height: 20px;
+  color: #BDBDBD;
+  background-color: white;
+  border: none;
+}
+.boxText{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.buttonRemove:hover{
+  background-color: #828282 ;
+  color: white;
+  transition: 1s;
+
+}
